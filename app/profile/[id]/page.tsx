@@ -141,7 +141,7 @@ export default function ProfilePage({ params }: { params: { id: string } }) {
                 />
                 <div>
                   <h3 className="font-semibold text-gray-900 text-sm">{edu.school}</h3>
-                  <p className="text-sm text-gray-700">{edu.degree}, {edu.field}</p>
+                  <p className="text-sm text-gray-700" style={{ fontFamily: "Inter", fontSize: "20px" }}>{edu.degree}, {edu.field}</p>
                   <p className="text-xs text-gray-500 mt-0.5">{edu.start} – {edu.end}</p>
                   {edu.activities && <p className="text-sm text-gray-600 mt-1">{edu.activities}</p>}
                 </div>

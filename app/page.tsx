@@ -208,7 +208,7 @@ export default function LandingPage() {
       <section className="py-20 bg-[#0A66C2]">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h2 className="text-4xl font-bold text-white mb-6">Ready to take the next step in your career?</h2>
-          <p className="text-xl text-blue-100 mb-10 leading-relaxed">
+          <p style={{ fontFamily: "Inter", fontSize: "20px" }} className="text-xl text-blue-100 mb-10 leading-relaxed">
             Join over 900 million professionals on ProConnect. Your next opportunity is just one connection away.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
