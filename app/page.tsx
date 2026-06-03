@@ -44,6 +44,7 @@ export default function LandingPage() {
             </h1>
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
               Connect with millions of professionals, discover opportunities, and build the career you deserve. ProConnect is where ambition meets opportunity.
+testing
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
