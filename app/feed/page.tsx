@@ -21,7 +21,7 @@ export default function FeedPage() {
               <PostCard key={post.id} post={post} />
             ))}
             <div className="text-center py-6">
-              <p className="text-sm text-gray-500" style={{ fontFamily: "Inter", fontSize: "20px" }}>You&apos;ve seen all recent posts</p>
+              <p className="text-sm text-gray-500" style={{ fontFamily: "Inter", fontSize: "30px" }}>You&apos;ve seen all recent posts</p>
               <button className="mt-2 text-sm font-semibold text-[#0A66C2] hover:underline">
                 Load more
               </button>

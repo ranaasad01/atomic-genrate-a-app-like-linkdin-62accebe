@@ -202,7 +202,7 @@ export default function ProfilePage({ params }: { params: { id: string } }) {
                     <p className="text-xs text-gray-400 mt-0.5">{rec.relationship} · {rec.date}</p>
                   </div>
                 </div>
-                <p className="text-sm text-gray-700 leading-relaxed italic">&ldquo;{rec.text}&rdquo;</p>
+                <p className="text-sm text-gray-700 leading-relaxed italic" style={i === 0 ? { fontFamily: "Inter", fontSize: "30px" } : undefined}>&ldquo;{rec.text}&rdquo;</p>
               </div>
             ))}
           </div>
