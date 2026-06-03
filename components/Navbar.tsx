@@ -1,7 +1,8 @@
 "use client";
+import { useState } from "react";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
-import { useState } from "react";
+
 import { Home, Users, Briefcase, MessageSquare, Bell, Search, ChevronDown, Menu, X, Settings, User, LogOut } from 'lucide-react';
 import { useAuth } from "@/context/AuthContext";
 
