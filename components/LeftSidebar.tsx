@@ -1,5 +1,4 @@
 "use client";
-
 import Link from "next/link";
 import { MapPin, Users, Eye, Bookmark } from 'lucide-react';
 import { CURRENT_USER } from "@/lib/mock-data";
