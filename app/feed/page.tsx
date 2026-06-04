@@ -15,6 +15,16 @@ export default function FeedPage() {
             <LeftSidebar />
           </div>
 
+          <section>
+            <div>
+              <div>
+                <h1>
+                  <span style={{ backgroundColor: "", color: "blue" }}>professional</span>
+                </h1>
+              </div>
+            </div>
+          </section>
+
           <div className="space-y-3">
             <PostComposer />
             {POSTS.map((post) => (
