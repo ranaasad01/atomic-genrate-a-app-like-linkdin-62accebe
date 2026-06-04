@@ -40,7 +40,7 @@ export default function LandingPage() {
           <div>
             <h1 className="text-5xl font-bold text-gray-900 leading-tight mb-6">
               Welcome to your
-              <span style={{ backgroundColor: "#000000", color: "#004182" }} className="text-[#0A66C2]"> professional</span> community
+              <span style={{ backgroundColor: "", color: "#0a66c2" }} className="text-[#0A66C2]"> professional</span> community
             </h1>
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
               Connect with millions of professionals, discover opportunities, and build the career you deserve. ProConnect is where ambition meets opportunity.
